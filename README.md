@@ -31,25 +31,33 @@ Here is where I demonstrate how to prepare two virtual machines to deploy Active
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="[https://i.imgur.com/DJmEXEB.png](https://imgur.com/NqgBzAD)" height="80%" width="80%" alt=" Domain Controller And Client Should Be Under The Same Virtual Network."/>
+<img src="https://i.imgur.com/8LVs7yI.png" height="80%" width="80%" alt=" Domain Controller And Client Should Be Under The Same Virtual Network."/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First and foremost, we must set the server's Private IP address to static and the client's DNS Servers set custom to the server's Private IP address.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sP5kYnv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next step is to install <b>Active Directory Domain Services</b> under <b>Add roles and features</b>.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DhUsLRU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After that, we need to <b>promote this server to a domain controller</b>; there's a flag on the top-right of the window.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/E5TblOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Then, we need to sign in <b>the domain</b>.
 </p>
 <br />

@@ -8,7 +8,7 @@ Here is where I demonstrate how to prepare two virtual machines to deploy Active
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Prepare Active Directory With Azure](https://www.youtube.com/watch?v=EsfFDefAsPU&list=PLJdzXvmqRYWVebeb7-VDhyQAI2VtJyfGW&index=1)
+- ### [YouTube: How to Prepare Active Directory With Azure](https://youtu.be/qVrfRWzp4Rw)
 
 <h2>Environments and Technologies Used</h2>
 
